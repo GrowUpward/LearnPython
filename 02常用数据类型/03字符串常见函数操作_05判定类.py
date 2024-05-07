@@ -87,10 +87,12 @@ print(name.startswith('name:'))
 # 	返回值
 # 		是否以指定后缀结尾
 # 		bool 类型
+
+name="acc:99%"
+print(name.endswith('%'))
 # 补充
 # 	in
 # 		判定一个字符串, 是否被另外一个字符串包含
 # 	not in
 # 		判定一个字符串, 是否不被另外一个字符串包含
-name="acc:99%"
-print(name.endswith('%'))
+print('abc' not in 'acd')
